@@ -1,0 +1,374 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+header{
+    height: 6.7vw;
+    width: 100vw;
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 80;
+}
+.logo img{
+    height: 3vw;
+    width: 5vw;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    color: #9767A9;
+    height: 1.7vw;
+    width: 50vw;
+    justify-content: space-between;
+    font-size: 1.17vw;
+}
+nav li:hover{
+    font-weight: 1000;
+    cursor: pointer;
+}
+.busca input{
+    height: 3.1vw;
+    width: 16vw;
+    border: 0.23vw solid #9767A9;
+    border-radius: 8.2vh;
+    padding-left: 3vw;
+    background-image: url("./lupa\ \(1\).png");
+    background-position: 0.8vw;
+    background-repeat: no-repeat;
+}
+::placeholder{
+    font-size: 1vw;
+  padding-top: 3vw;
+}
+.redes-sociais{
+    display: flex;
+    height: 3.1vw;
+    width: 10vw;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.redes-sociais img{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+main{
+    color: #ffff;
+    padding-top: 6.7vw;
+}
+.fundo{
+    height: 60vw;
+    width: 98.7vw;
+    background-image: url("./fundo\ total.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 60vw;
+    position: relative;
+}
+.titulo{
+    display: flex;
+    position: absolute;
+}
+.titulo h1{
+    position: absolute;
+    left: 15vw;
+    top: 28vw;
+    font-size: 6.7vw;
+}
+.titulo div{
+    height: 7.6vw;
+    width: 28vw;
+    position: absolute;
+    left: 56vw;
+    top: 32vw;
+}
+.titulo p{
+    font-size: 2.4vw;
+}
+.dicas{
+    position: relative;
+}
+.intro{
+    height: 29.5vw;
+    width: 98.7vw;
+    background-color: #9767A9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+}
+.intro-titulo{
+    width: 60vw;
+    height: 15vw;
+    font-size: 2vw;
+}
+.intro-titulo h2{
+    font-size: 4vw;
+}
+.intro-p{
+    width: 30vw;
+    height: 21vw
+}
+.intro-p p{
+    font-size: 1.4vw;
+}
+.dica1 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    left: 6vw;
+    top: 26vw;
+}
+.dica1 div{
+    background-color: #9767A9;
+    height: 29vw;
+    width: 32vw;
+    position: absolute;
+    left: 11vw;
+    top: 51vw;
+    padding: 2vw;
+}
+.dica1 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    padding-bottom: 1vw;
+}
+.dica1 p{
+    font-size: 1.32vw;
+    text-align: left;
+}
+.dica2 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    right: 6vw;
+    top: 50vw;
+}
+.dica2 div{
+    background-color: #9767A9;
+    height: 24vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    right: 11vw;
+    top: 74vw;
+}
+.dica2 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    padding-bottom: 1vw;
+}
+.dica2 p{
+    font-size: 1.32vw;
+    text-align: left;
+}
+.dica3 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    left: 6vw;
+    top: 86vw;   
+}
+.dica3 div{
+    background-color: #9767A9;
+    height: 23vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    left: 11vw;
+    top: 110vw;
+}
+.dica3 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    padding-bottom: 1vw;
+}
+.dica3 p{
+    font-size: 1.32vw;
+    text-align: left;
+}
+.dica4 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    right: 6vw;
+    top: 99vw;
+}
+.dica4 div{
+    background-color: #9767A9;
+    height: 25vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    right: 11vw;
+    top: 125vw;
+}
+.dica4 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    padding-bottom: 1vw;
+}
+.dica4 p{
+    font-size: 1.32vw;
+    text-align: left;
+}
+.dica5 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    left: 6vw;
+    top: 135vw;
+}
+.dica5 div{
+    background-color: #9767A9;
+    height: 25vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    left: 11vw;
+    top: 161vw;
+}
+.dica5 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    padding-bottom: 1vw;
+}
+.dica5 p{
+    font-size: 1.32vw;
+    text-align: left;
+}
+.dica6 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    right: 6vw;
+    top: 152vw;
+}
+.dica6 div{
+    background-color: #9767A9;
+    height: 24vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    right: 11vw;
+    top: 180vw;
+}
+.dica6 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    padding-bottom: 1vw;
+}
+.dica6 p{
+    font-size: 1.32vw;
+    text-align: left;
+}
+.dica7 img{
+    width: 43vw;
+    height: 33vw;
+    position: absolute;
+    left: 6vw;
+    top: 188vw;
+}
+.dica7 div{
+    background-color: #9767A9;
+    height: 22vw;
+    width: 32vw;
+    position: absolute;
+    padding: 2vw;
+    left: 11vw;
+    top: 215vw;
+}
+.dica7 h3{
+    font-size: 2.7vw;
+    text-align: left;
+    padding-bottom: 1vw;
+}
+.dica7 p{
+    font-size: 1.32vw;
+    text-align: left;
+}
+.cacho img{
+    height: 5vw;
+    width: 30vw;
+    position: absolute;
+    right: 11vw;
+    top: 214vw;
+}
+
+
+.roxo{
+   
+    display: flex;
+}
+.roxo p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: seagreen;
+    width: 100vw;
+    height: auto;
+    font-size: 1vw;
+    color:#ffff ;
+    
+  
+}
+.grid{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.grid img{
+    width: 90vw;
+}
+footer{
+    background-color: #9767A9;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:425px){
+    header{
+        background-color: white;
+        
+    }
+    nav ul{
+        display: none;
+    }
+    input{
+        display: none;
+        background-image: none;
+    }
+    .redes-sociais{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .logo img{
+     height: 3vw;
+        
+    }
+   } 
+   .grid{
+       display: flex;
+       position: absolute;
+       top: 309vw;
+   }
+   .grid-item{
+       margin: 2px;
+       width: 40vw;
+       height: 70vh;
+       align-items: center;
+       justify-content: space-around;
+       display: flex;
+       flex-wrap:wrap-reverse;
+   }
