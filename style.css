@@ -65,7 +65,7 @@ main{
 .fundo{
     height: 60vw;
     width: 98.7vw;
-    background-image: url("./fundo\ total.png");
+    background-image: url("./img/fundo\ total.png");
     background-repeat: no-repeat;
     background-size: 100vw 60vw;
     position: relative;
