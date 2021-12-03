@@ -64,7 +64,7 @@ main{
 }
 .fundo{
     height: 60vw;
-    width: 98.7vw;
+    width: 99vw;
     background-image: url("./img/fundo\ total.png");
     background-repeat: no-repeat;
     background-size: 100vw 60vw;
@@ -95,7 +95,7 @@ main{
 }
 .intro{
     height: 29.5vw;
-    width: 98.7vw;
+    width: 99vw;
     background-color: #9767A9;
     display: flex;
     justify-content: space-evenly;
@@ -326,6 +326,8 @@ main{
 }
 .grid img{
     width: 90vw;
+    position: absolute;
+    top: 310vw;
 }
 footer{
     background-color: #9767A9;
@@ -335,40 +337,277 @@ footer{
 
 @media (max-width:425px){
     header{
-        background-color: white;
-        
+        height: 10vw;
     }
     nav ul{
-        display: none;
+        display:none;
     }
     input{
         display: none;
-        background-image: none;
     }
     .redes-sociais{
         display: none;
     }
     .logo{
         display: flex;
-        width: 100%;
+        width: 100vw;
         justify-content: center;
     }
     .logo img{
-     height: 3vw;
-        
+        height: 10vw;
+        width: 12vw;
     }
-   } 
-   .grid{
-       display: flex;
-       position: absolute;
-       top: 309vw;
+    .fundo{
+        width: 100vw;
+        background-image: url(./img/fundo\ mobile.png);
+    }
+    .titulo h1 {
+        top: 10vw;
+        left: 10vw;
+        font-size: 45px;
+    }
+    .titulo div{
+        top: 38vw;
+        left:10vw;
+       
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 40vw;
+    }
+    .intro-p p{
+        position: absolute;
+        font-size: 2.5vw;
+        left: 2vw;
+        top: 12vw;
+        padding: 3vw;
+    }
+   .dica1 img{
+       left: 5%;
+       top: 30vw;
+       width: 90vw;
+       height: 50vw;
    }
-   .grid-item{
-       margin: 2px;
-       width: 40vw;
-       height: 70vh;
-       align-items: center;
-       justify-content: space-around;
-       display: flex;
-       flex-wrap:wrap-reverse;
+   .dica1 div{
+       top: 60vw;
+       left: 0vw;
+       height:33vw;
+       width: 100vw;
    }
+   .dica1 p{
+       font-size: 2.3vw;
+       font-style: normal;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .dica1 h3{
+       font-size: 4vw;
+   }
+   
+    .grid img{
+        display: none;
+    }
+    .dica2 img{
+        left: 5%;
+        top: 95vw;
+        width: 90vw;
+        height: 50vw;
+    }
+    .dica2 div{
+        top: 140vw;
+        left: 0vw;
+        height:33vw;
+        width: 100vw;
+    }
+    .dica2 p{
+        font-size: 2.3vw;
+        font-style: normal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .dica2 h3{
+        font-size: 4vw;
+    }
+    .dica3 img{
+        left: 5%;
+        top: 176vw;
+        width: 90vw;
+        height: 50vw;
+    }
+    .dica3 div{
+        top: 220vw;
+        left: 0vw;
+        height:33vw;
+        width: 100vw;
+    }
+    .dica3 p{
+        font-size: 2.3vw;
+        font-style: normal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .dica3 h3{
+        font-size: 4vw;
+    }
+    .dica4 img{
+        left: 5%;
+        top: 256vw;
+        width: 90vw;
+        height: 50vw;
+    }
+    .dica4 div{
+        top: 305vw;
+        left: 0vw;
+        height:33vw;
+        width: 100vw;
+    }
+    .dica4 p{
+        font-size: 2.3vw;
+        font-style: normal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .dica4 h3{
+        font-size: 4vw;
+    }
+    .dica5 img{
+        left: 5%;
+        top: 342vw;
+        width: 90vw;
+        height: 50vw;
+    }
+    .dica5 div{
+        top: 385vw;
+        left: 0vw;
+        height:33vw;
+        width: 100vw;
+    }
+    .dica5 p{
+        font-size: 2.3vw;
+        font-style: normal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .dica5 h3{
+        font-size: 4vw;
+    }
+    .dica6 img{
+        left: 5%;
+        top: 422vw;
+        width: 90vw;
+        height: 50vw;
+    }
+    .dica6 div{
+        top: 470vw;
+        left: 0vw;
+        height:33vw;
+        width: 100vw;
+    }
+    .dica6 p{
+        font-size: 2.3vw;
+        font-style: normal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .dica6 h3{
+        font-size: 4vw;
+    }
+    .dica7 img{
+        left: 5%;
+        top: 507vw;
+        width: 90vw;
+        height: 50vw;
+    }
+    .dica7 div{
+        top: 555vw;
+        left: 0vw;
+        height:33vw;
+        width: 100vw;
+    }
+    .dica7 p{
+        font-size: 2.3vw;
+        font-style: normal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .dica7 h3{
+        font-size: 4vw;
+    }
+    .mobile-grid{
+        position: absolute;
+        top: 680vw;
+    }
+    .cacho-mobile img{
+        position: absolute;
+        top: -8vh;
+        width: 144px;
+        height: 24px;
+        left: 30%;
+    }
+    .booker img{
+        position: absolute;
+        top: 0vh;
+        width: 162px;
+        height: 224px;
+        left: 4%;
+    }
+    .beyonce img{
+        position: absolute;
+        top: 0vh;
+        width: 78px;
+        height: 84px;
+        left: 47%;
+    }
+    .jordan img{
+        position: absolute;
+        top: 0vh;
+        width: 78px;
+        height: 84px;
+        left: 70%;
+    }
+    .tais img{
+        position: absolute;
+        top: 12vh;
+        width: 173px;
+        height: 137px;
+        left: 47%;
+    }
+    .black img{
+        position: absolute;
+        top: 61vh;
+        width: 77px;
+        height: 177px;
+        left: 4%;
+    }
+    .barbudo img{
+        position: absolute;
+        top: 61vh;
+        width: 77px;
+        height: 177px;
+        left: 28%;
+    }
+    .cigarro img{
+        position: absolute;
+        top: 61vh;
+        width: 156px;
+        height: 270px;
+        left: 52%;
+    }
+    .menina img{
+        position: absolute;
+        top: 85vh;
+        width: 78px;
+        height: 84px;
+        left: 4%;
+    }
+    .snopp img{
+        position: absolute;
+        top: 85vh;
+        width: 78px;
+        height: 84px;
+        left: 28%;
+    }
+   
+}
+@media (min-width:425px){
+    .mobile-grid{
+        display: none;
+    }
+}
+
+    
