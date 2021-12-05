@@ -338,6 +338,7 @@ footer{
 @media (max-width:425px){
     header{
         height: 10vw;
+        
     }
     nav ul{
         display:none;
@@ -386,12 +387,12 @@ footer{
     }
    .dica1 img{
        left: 5%;
-       top: 30vw;
+       top: 33vw;
        width: 90vw;
        height: 50vw;
    }
    .dica1 div{
-       top: 60vw;
+       top: 75vw;
        left: 0vw;
        height:33vw;
        width: 100vw;
@@ -410,12 +411,12 @@ footer{
     }
     .dica2 img{
         left: 5%;
-        top: 95vw;
+        top: 110vw;
         width: 90vw;
         height: 50vw;
     }
     .dica2 div{
-        top: 140vw;
+        top: 155vw;
         left: 0vw;
         height:33vw;
         width: 100vw;
@@ -430,12 +431,12 @@ footer{
     }
     .dica3 img{
         left: 5%;
-        top: 176vw;
+        top: 190vw;
         width: 90vw;
         height: 50vw;
     }
     .dica3 div{
-        top: 220vw;
+        top: 235vw;
         left: 0vw;
         height:33vw;
         width: 100vw;
@@ -450,12 +451,12 @@ footer{
     }
     .dica4 img{
         left: 5%;
-        top: 256vw;
+        top: 270vw;
         width: 90vw;
         height: 50vw;
     }
     .dica4 div{
-        top: 305vw;
+        top: 320vw;
         left: 0vw;
         height:33vw;
         width: 100vw;
@@ -470,12 +471,12 @@ footer{
     }
     .dica5 img{
         left: 5%;
-        top: 342vw;
+        top: 355vw;
         width: 90vw;
         height: 50vw;
     }
     .dica5 div{
-        top: 385vw;
+        top: 395vw;
         left: 0vw;
         height:33vw;
         width: 100vw;
@@ -490,12 +491,12 @@ footer{
     }
     .dica6 img{
         left: 5%;
-        top: 422vw;
+        top: 430vw;
         width: 90vw;
         height: 50vw;
     }
     .dica6 div{
-        top: 470vw;
+        top: 480vw;
         left: 0vw;
         height:33vw;
         width: 100vw;
@@ -510,12 +511,12 @@ footer{
     }
     .dica7 img{
         left: 5%;
-        top: 507vw;
+        top: 515vw;
         width: 90vw;
         height: 50vw;
     }
     .dica7 div{
-        top: 555vw;
+        top: 565vw;
         left: 0vw;
         height:33vw;
         width: 100vw;
@@ -530,7 +531,7 @@ footer{
     }
     .mobile-grid{
         position: absolute;
-        top: 680vw;
+        top: 690vw;
     }
     .cacho-mobile img{
         position: absolute;
@@ -539,75 +540,16 @@ footer{
         height: 24px;
         left: 30%;
     }
-    .booker img{
-        position: absolute;
-        top: 0vh;
-        width: 162px;
-        height: 224px;
-        left: 4%;
+    .grid-mobilee img{
+        margin: 3vw;
+        height: 200vw;
     }
-    .beyonce img{
-        position: absolute;
-        top: 0vh;
-        width: 78px;
-        height: 84px;
-        left: 47%;
-    }
-    .jordan img{
-        position: absolute;
-        top: 0vh;
-        width: 78px;
-        height: 84px;
-        left: 70%;
-    }
-    .tais img{
-        position: absolute;
-        top: 12vh;
-        width: 173px;
-        height: 137px;
-        left: 47%;
-    }
-    .black img{
-        position: absolute;
-        top: 61vh;
-        width: 77px;
-        height: 177px;
-        left: 4%;
-    }
-    .barbudo img{
-        position: absolute;
-        top: 61vh;
-        width: 77px;
-        height: 177px;
-        left: 28%;
-    }
-    .cigarro img{
-        position: absolute;
-        top: 61vh;
-        width: 156px;
-        height: 270px;
-        left: 52%;
-    }
-    .menina img{
-        position: absolute;
-        top: 85vh;
-        width: 78px;
-        height: 84px;
-        left: 4%;
-    }
-    .snopp img{
-        position: absolute;
-        top: 85vh;
-        width: 78px;
-        height: 84px;
-        left: 28%;
-    }
-   
-}
+    
 @media (min-width:425px){
     .mobile-grid{
         display: none;
     }
+   
 }
 
     
