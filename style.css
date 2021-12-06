@@ -6,6 +6,7 @@
     font-family: 'Montserrat';
 }
 
+
 header{
     height: 6.7vw;
     width: 100vw;
@@ -302,15 +303,16 @@ main{
 
 
 .roxo{
-   
     display: flex;
+    
 }
 .roxo p{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
     background-color: seagreen;
     width: 100vw;
+    height: 100vw;
     height: auto;
     font-size: 1vw;
     color:#ffff ;
@@ -334,7 +336,6 @@ footer{
     width: 100%;
     height: 100%;
 }
-
 @media (max-width:425px){
     header{
         height: 10vw;
@@ -405,10 +406,6 @@ footer{
    .dica1 h3{
        font-size: 4vw;
    }
-   
-    .grid img{
-        display: none;
-    }
     .dica2 img{
         left: 5%;
         top: 110vw;
@@ -418,20 +415,20 @@ footer{
     .dica2 div{
         top: 155vw;
         left: 0vw;
-        height:33vw;
+        height:35vw;
         width: 100vw;
     }
     .dica2 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family:sans-serif;
     }
     .dica2 h3{
         font-size: 4vw;
     }
     .dica3 img{
         left: 5%;
-        top: 190vw;
+        top: 193vw;
         width: 90vw;
         height: 50vw;
     }
@@ -444,7 +441,7 @@ footer{
     .dica3 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family:sans-serif;
     }
     .dica3 h3{
         font-size: 4vw;
@@ -464,7 +461,7 @@ footer{
     .dica4 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family:sans-serif;
     }
     .dica4 h3{
         font-size: 4vw;
@@ -484,7 +481,7 @@ footer{
     .dica5 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family:sans-serif;
     }
     .dica5 h3{
         font-size: 4vw;
@@ -504,7 +501,7 @@ footer{
     .dica6 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family:sans-serif;
     }
     .dica6 h3{
         font-size: 4vw;
@@ -524,32 +521,12 @@ footer{
     .dica7 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family:sans-serif;
     }
     .dica7 h3{
         font-size: 4vw;
     }
-    .mobile-grid{
-        position: absolute;
-        top: 690vw;
-    }
-    .cacho-mobile img{
-        position: absolute;
-        top: -8vh;
-        width: 144px;
-        height: 24px;
-        left: 30%;
-    }
-    .grid-mobilee img{
-        margin: 3vw;
-        height: 200vw;
-    }
-    
-@media (min-width:425px){
-    .mobile-grid{
-        display: none;
-    }
-   
-}
-
+   .grid img{
+       display: none;
+   }
     
