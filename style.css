@@ -40,9 +40,10 @@ nav li:hover{
     border: 0.23vw solid #9767A9;
     border-radius: 8.2vh;
     padding-left: 3vw;
-    background-image: url("./lupa\ \(1\).png");
+    background-image: url("./img/lupa\ \(1\).png");
     background-position: 0.8vw;
     background-repeat: no-repeat;
+    background-size: 1.5vw;
 }
 ::placeholder{
     font-size: 1vw;
@@ -54,6 +55,7 @@ nav li:hover{
     width: 10vw;
     justify-content: space-evenly;
     cursor: pointer;
+    position: relative;
 }
 .redes-sociais img{
     width: 2.5vw;
@@ -336,9 +338,55 @@ footer{
     width: 100%;
     height: 100%;
 }
+footer{
+    background-color: #9767A9;
+    height: 5.2vw;
+    width: 99vw;
+    position: absolute;
+    top: 360vw;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer img{
+    width: 2.9vw;
+    height: 2.7vw;
+}
+.referencias{
+    width:60vw;
+    height: 100%;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.setas{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    height: 100%;
+}
+.setas a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 9vw;
+    height: 100%;
+}
+.setas p{
+    font-size: 1.4vw;
+}
+.setas a:hover{
+    background-color:#AC95BB;
+}
 @media (max-width:425px){
+
+
     header{
-        height: 10vw;
+        height: 11vw;
         
     }
     nav ul{
@@ -347,8 +395,8 @@ footer{
     input{
         display: none;
     }
-    .redes-sociais{
-        display: none;
+    .redes-sociais{ 
+    display: none;
     }
     .logo{
         display: flex;
@@ -356,34 +404,34 @@ footer{
         justify-content: center;
     }
     .logo img{
-        height: 10vw;
-        width: 12vw;
+        height: 39px;
+        width: 69px;
     }
     .fundo{
         width: 100vw;
         background-image: url(./img/fundo\ mobile.png);
     }
     .titulo h1 {
-        top: 10vw;
+        top: 6vw;
         left: 10vw;
         font-size: 45px;
     }
     .titulo div{
-        top: 38vw;
-        left:10vw;
+        top: 34vw;
+        left:12vw;
        
     }
     .intro{
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 40vw;
+        height: 30vw;
     }
     .intro-p p{
         position: absolute;
         font-size: 2.5vw;
         left: 2vw;
-        top: 12vw;
+        top: 8vw;
         padding: 3vw;
     }
    .dica1 img{
@@ -529,4 +577,54 @@ footer{
    .grid img{
        display: none;
    }
-    
+   .setas img {
+       display: none;
+   }
+   .referencias p{
+       display: none;
+   }
+   .setas p {
+       display: none;
+   }
+   footer{
+       top: 850vw;
+       height: 30vw;
+       background-color: white;
+   }
+   .ref-mobile img{
+       position: absolute;
+       top: 1vw;
+       width: 100px;
+       height: 50px;
+       left: 4vw;
+   }
+   .ref-mobile2 img{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    left: 70vw;
+    top: 2vw;
+}
+.ref-mobile3 p{
+    position: absolute;
+   color: black;
+    left: 7vw;
+    top: 25vw;
+    font-weight: lighter;
+    font-size: 2.5vw;
+} 
+.copyright p{
+    position: absolute;
+    color: black;
+    left: 7vw;
+    top: 19vw;
+    font-weight: bold;
+
+}
+
+}  
+@media (min-width:426px){
+    .ref0 div{
+        display: none;
+    }
+}
