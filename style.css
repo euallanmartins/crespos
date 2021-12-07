@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&family=Playfair+Display:wght@900&family=Roboto:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -194,7 +195,7 @@ main{
     padding-bottom: 1vw;
 }
 .dica1 p{
-    font-size: 1.32vw;
+    font-size: 1vw;
     text-align: left;
 }
 .dica2 img{
@@ -219,7 +220,7 @@ main{
     padding-bottom: 1vw;
 }
 .dica2 p{
-    font-size: 1.32vw;
+    font-size: 1vw;
     text-align: left;
 }
 .dica3 img{
@@ -244,7 +245,7 @@ main{
     padding-bottom: 1vw;
 }
 .dica3 p{
-    font-size: 1.32vw;
+    font-size: 1vw;
     text-align: left;
 }
 .dica4 img{
@@ -269,7 +270,7 @@ main{
     padding-bottom: 1vw;
 }
 .dica4 p{
-    font-size: 1.32vw;
+    font-size: 1vw;
     text-align: left;
 }
 .dica5 img{
@@ -294,7 +295,7 @@ main{
     padding-bottom: 1vw;
 }
 .dica5 p{
-    font-size: 1.32vw;
+    font-size: 1vw;
     text-align: left;
 }
 .dica6 img{
@@ -319,7 +320,7 @@ main{
     padding-bottom: 1vw;
 }
 .dica6 p{
-    font-size: 1.32vw;
+    font-size: 1vw;
     text-align: left;
 }
 .dica7 img{
@@ -344,7 +345,7 @@ main{
     padding-bottom: 1vw;
 }
 .dica7 p{
-    font-size: 1.32vw;
+    font-size: 1vw;
     text-align: left;
 }
 .cacho img{
@@ -408,11 +409,11 @@ footer img{
 .referencias{
     width:60vw;
     height: 100%;
-    font-size: 1vw;
+    font-size: 0.7vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    
 }
 .setas{
     display: flex;
@@ -435,6 +436,7 @@ footer img{
     background-color:#;
 }
 
+
 @media (max-width:425px){
     header{
         height: 11vw;
@@ -447,13 +449,10 @@ footer img{
         justify-content: center;
         background-color: #9767A9;
         width: 20vw;
-        
       }
-      
       #checkbox-menu{
         position: absolute;
         opacity: 0;
-      
       }
       
       label{
@@ -502,11 +501,6 @@ footer img{
         }
 
 
-
-
-
-
-
     nav ul{
         display:none;
     }
@@ -533,7 +527,7 @@ footer img{
     .titulo h1 {
         top: 6vw;
         left: 10vw;
-        font-size: 45px;
+        font-size: 40px;
     }
     .titulo div{
         top: 34vw;
@@ -545,13 +539,17 @@ footer img{
         flex-direction: column;
         width: 100%;
         height: 30vw;
+      
     }
     .intro-p p{
         position: absolute;
-        font-size: 2.5vw;
+        font-size: 2.3vw;
         left: 2vw;
         top: 8vw;
         padding: 3vw;
+    }
+    .intro-titulo h2{
+        font-size: 3.8vw;
     }
    .dica1 img{
        left: 5%;
@@ -568,7 +566,7 @@ footer img{
    .dica1 p{
        font-size: 2.3vw;
        font-style: normal;
-       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
    }
    .dica1 h3{
        font-size: 4vw;
@@ -588,7 +586,7 @@ footer img{
     .dica2 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family:sans-serif;
+       
     }
     .dica2 h3{
         font-size: 4vw;
@@ -608,7 +606,6 @@ footer img{
     .dica3 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family:sans-serif;
     }
     .dica3 h3{
         font-size: 4vw;
@@ -628,7 +625,6 @@ footer img{
     .dica4 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family:sans-serif;
     }
     .dica4 h3{
         font-size: 4vw;
@@ -648,7 +644,6 @@ footer img{
     .dica5 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family:sans-serif;
     }
     .dica5 h3{
         font-size: 4vw;
@@ -668,7 +663,6 @@ footer img{
     .dica6 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family:sans-serif;
     }
     .dica6 h3{
         font-size: 4vw;
@@ -688,7 +682,7 @@ footer img{
     .dica7 p{
         font-size: 2.3vw;
         font-style: normal;
-        font-family:sans-serif;
+        
     }
     .dica7 h3{
         font-size: 4vw;
@@ -738,7 +732,6 @@ footer img{
     left: 7vw;
     top: 19vw;
     font-weight: bold;
-
 }
 
 }  
