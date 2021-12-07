@@ -543,13 +543,13 @@ footer img{
     }
     .intro-p p{
         position: absolute;
-        font-size: 2.0vw;
+        font-size: 2.3vw;
         left: 2vw;
         top: 8vw;
         padding: 3vw;
     }
     .intro-titulo h2{
-        font-size: 3.4vw;
+        font-size: 3.8vw;
     }
    .dica1 img{
        left: 5%;
@@ -564,6 +564,7 @@ footer img{
        width: 100vw;
    }
    .dica1 p{
+       padding: 0px 27px;
        font-size: 2.3vw;
        font-style: normal;
        
@@ -584,6 +585,7 @@ footer img{
         width: 100vw;
     }
     .dica2 p{
+        padding: 0px 27px;
         font-size: 2.3vw;
         font-style: normal;
        
@@ -604,7 +606,8 @@ footer img{
         width: 100vw;
     }
     .dica3 p{
-        font-size: 2.3vw;
+        padding: 0px 27px;
+        font-size: 2.6vw;
         font-style: normal;
     }
     .dica3 h3{
@@ -623,7 +626,8 @@ footer img{
         width: 100vw;
     }
     .dica4 p{
-        font-size: 2.3vw;
+        padding: 0px 27px;
+        font-size: 2.6vw;
         font-style: normal;
     }
     .dica4 h3{
@@ -642,7 +646,8 @@ footer img{
         width: 100vw;
     }
     .dica5 p{
-        font-size: 2.3vw;
+        padding: 0px 27px;
+        font-size: 2.6vw;
         font-style: normal;
     }
     .dica5 h3{
@@ -661,7 +666,8 @@ footer img{
         width: 100vw;
     }
     .dica6 p{
-        font-size: 2.3vw;
+        padding: 0px 27px;
+        font-size: 2.6vw;
         font-style: normal;
     }
     .dica6 h3{
@@ -680,7 +686,8 @@ footer img{
         width: 100vw;
     }
     .dica7 p{
-        font-size: 2.3vw;
+        padding: 0px 27px;
+        font-size: 2.6vw;
         font-style: normal;
         
     }
