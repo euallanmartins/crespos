@@ -543,13 +543,13 @@ footer img{
     }
     .intro-p p{
         position: absolute;
-        font-size: 2.3vw;
+        font-size: 2.0vw;
         left: 2vw;
         top: 8vw;
         padding: 3vw;
     }
     .intro-titulo h2{
-        font-size: 3.8vw;
+        font-size: 3.4vw;
     }
    .dica1 img{
        left: 5%;
@@ -708,7 +708,7 @@ footer img{
        position: absolute;
        top: 1vw;
        width: 100px;
-       height: 50px;
+       height: 44px;
        left: 4vw;
    }
    .ref-mobile2 img{
