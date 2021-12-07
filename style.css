@@ -7,6 +7,58 @@
 }
 
 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header{
     height: 6.7vw;
     width: 100vw;
@@ -380,15 +432,81 @@ footer img{
     font-size: 1.4vw;
 }
 .setas a:hover{
-    background-color:#AC95BB;
+    background-color:#;
 }
+
 @media (max-width:425px){
-
-
     header{
         height: 11vw;
-        
     }
+
+    .container{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #9767A9;
+        width: 20vw;
+        
+      }
+      
+      #checkbox-menu{
+        position: absolute;
+        opacity: 0;
+      
+      }
+      
+      label{
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 22px;
+        width: 30px;
+      }
+      
+      label span{
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 100%;
+        border-radius: 30px;
+        background: #fff;
+        transition: 0.25s ease-in-out;
+      }
+      
+      label span:nth-child(1){
+        top: 0;
+      }
+      
+      label span:nth-child(2){
+        top: 8px;
+      }
+      
+      label span:nth-child(3){
+        top: 16px;
+      }
+      
+      #checkbox-menu:checked + label span:nth-child(1){
+        transform: rotate(-45deg);
+        top: 8px;
+      }
+      
+      #checkbox-menu:checked + label span:nth-child(2){
+        opacity: 0;
+      }
+      
+      #checkbox-menu:checked + label span:nth-child(3){
+        transform: rotate(45deg);
+        top:8px;
+
+        }
+
+
+
+
+
+
+
     nav ul{
         display:none;
     }
@@ -401,7 +519,8 @@ footer img{
     .logo{
         display: flex;
         width: 100vw;
-        justify-content: center;
+       position: relative;
+       left: 25%;
     }
     .logo img{
         height: 39px;
@@ -627,4 +746,9 @@ footer img{
     .ref0 div{
         display: none;
     }
+    .container{
+        display: none;
+    }
+ 
+ 
 }
