@@ -351,7 +351,7 @@ footer img{
     font-size: 1.4vw;
 }
 .setas a:hover{
-    background-color:#D3D3D3;
+    background-color:#DCDCDC;
 }
 .img1{
     width:20vw;
@@ -429,17 +429,42 @@ footer img{
     }
 
     .container{
-        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #9767A9;
         width: 20vw;
       }
-      #checkbox-menu{
+
+      .container ul{
+        list-style: none;
         position: absolute;
-        opacity: 0;
-      }
+        width: 100%;
+    }
+    
+    .container nav{
+        background-color: #9767A9;
+        width: 35vw;
+        height: 42vw;
+        z-index: -1;
+        top: 8.01vw;
+        left: -40vw;
+        position: absolute;
+        transition: all .5s;
+    }
+    input[type="checkbox"]:checked ~ nav{
+        transform: translateX(35vw);
+    }
+    .container li{
+        display: block;
+        height: 7vw;
+        padding: 1vw;
+        color: #fff;
+    }
+    .container li:hover{
+        background-color: #AC95BB;
+        font-weight: 900;
+    }
+    
       
       label{
         cursor: pointer;
@@ -449,42 +474,51 @@ footer img{
         width: 30px;
       }
       
-      label span{
+      label img{
         position: absolute;
-        display: block;
-        height: 5px;
-        width: 100%;
-        border-radius: 30px;
-        background: #fff;
-        transition: 0.25s ease-in-out;
+        top: -4vw;
+        left: -5vw;
+       
       }
       
-      label span:nth-child(1){
-        top: 0;
-      }
-      
-      label span:nth-child(2){
-        top: 8px;
-      }
-      
-      label span:nth-child(3){
-        top: 16px;
-      }
-      
-      #checkbox-menu:checked + label span:nth-child(1){
-        transform: rotate(-45deg);
-        top: 8px;
-      }
-      
-      #checkbox-menu:checked + label span:nth-child(2){
-        opacity: 0;
-      }
-      
-      #checkbox-menu:checked + label span:nth-child(3){
-        transform: rotate(45deg);
-        top:8px;
 
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     nav ul{
