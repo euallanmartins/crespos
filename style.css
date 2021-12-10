@@ -5,59 +5,6 @@
     font-family: sans-serif;
 }
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 header{
     height: 6.7vw;
     width: 100vw;
@@ -67,6 +14,10 @@ header{
     align-items: center;
     position: fixed;
     z-index: 80;
+}
+body{
+    width: 100%;
+    height: 100%;
 }
 .logo img{
     height: 3vw;
@@ -187,7 +138,7 @@ main{
     top: 51vw;
     padding: 2vw;
 }
-.dica1 h3{
+.dica1, .dica2,.dica3,.dica4,.dica5,.dica6,.dica7 h3{
     font-size: 2.7vw;
     text-align: left;
     padding-bottom: 1vw;
@@ -212,11 +163,6 @@ main{
     right: 11vw;
     top: 70vw;
 }
-.dica2 h3{
-    font-size: 2.7vw;
-    text-align: left;
-    padding-bottom: 1vw;
-}
 .dica2 p{
     font-size: 1vw;
     text-align: left;
@@ -237,11 +183,7 @@ main{
     left: 11vw;
     top: 110vw;
 }
-.dica3 h3{
-    font-size: 2.7vw;
-    text-align: left;
-    padding-bottom: 1vw;
-}
+
 .dica3 p{
     font-size: 1vw;
     text-align: left;
@@ -262,11 +204,7 @@ main{
     right: 11vw;
     top: 125vw;
 }
-.dica4 h3{
-    font-size: 2.7vw;
-    text-align: left;
-    padding-bottom: 1vw;
-}
+
 .dica4 p{
     font-size: 1vw;
     text-align: left;
@@ -287,11 +225,7 @@ main{
     left: 11vw;
     top: 161vw;
 }
-.dica5 h3{
-    font-size: 2.7vw;
-    text-align: left;
-    padding-bottom: 1vw;
-}
+
 .dica5 p{
     font-size: 1vw;
     text-align: left;
@@ -312,11 +246,7 @@ main{
     right: 11vw;
     top: 180vw;
 }
-.dica6 h3{
-    font-size: 2.7vw;
-    text-align: left;
-    padding-bottom: 1vw;
-}
+
 .dica6 p{
     font-size: 1vw;
     text-align: left;
@@ -337,11 +267,6 @@ main{
     left: 11vw;
     top: 215vw;
 }
-.dica7 h3{
-    font-size: 2.7vw;
-    text-align: left;
-    padding-bottom: 1vw;
-}
 .dica7 p{
     font-size: 1vw;
     text-align: left;
@@ -353,11 +278,8 @@ main{
     right: 11vw;
     top: 214vw;
 }
-
-
 .roxo{
     display: flex;
-    
 }
 .roxo p{
     display: flex;
@@ -368,9 +290,7 @@ main{
     height: 100vw;
     height: auto;
     font-size: 1vw;
-    color:#ffff ;
-    
-  
+    color:#ffff;
 }
 .grid{
     display: flex;
@@ -431,7 +351,75 @@ footer img{
     font-size: 1.4vw;
 }
 .setas a:hover{
-    background-color:#;
+    background-color:#D3D3D3;
+}
+.img1{
+    width:20vw;
+    height:30vw;
+}
+.img2{
+    width:13vw;
+    height:15vw;
+}
+.img3{
+    width:13vw;
+    height:30vw;
+}
+.img4{
+    width:21vw;
+    height:44vw;  
+}
+.img5{
+    height:12vw;
+    width:12vw;
+}
+.img6{
+    width:20vw;
+    height:13vw;
+    position: absolute;
+    top:31vw;
+    left:0vw;
+}
+.img7{
+    width:13vw;
+    height:14.5vw;
+    position: absolute;
+    top:15.5vw;
+    left:21vw;
+
+}
+.img8{
+    width:13vw;
+    height:13vw;
+     position: absolute;
+     top:31vw;
+     left:21vw; 
+}
+.img9{
+    width:13vw;
+    height:13vw;
+     position: absolute;
+     top:31vw;
+     left:35vw; 
+}
+.img10{
+    height:31vw;
+    width:12vw;
+     position:absolute;
+     top:13vw;
+     left:71vw; 
+}
+.gridd{
+    width:85vw;
+    height:45vw;
+    position:relative;
+    top:240vw;
+    left:8vw;
+    display: flex;
+    
+}
+.gridd img{
+    margin:0.5vw;
 }
 
 
@@ -705,13 +693,14 @@ footer img{
        display: none;
    }
    footer{
-       top: 850vw;
-       height: 30vw;
+       top: 855vw;
+       height: 25vw;
        background-color: white;
+       position: absolute;
    }
    .ref-mobile img{
        position: absolute;
-       top: 1vw;
+       top: 2vw;
        width: 100px;
        height: 44px;
        left: 4vw;
@@ -738,7 +727,81 @@ footer img{
     top: 19vw;
     font-weight: bold;
 }
-
+.img1{
+    width:40vw;
+    height:60vw;
+}
+.img2{
+    width:22vw;
+    height:22vw;
+}
+.img3{
+    width:72vw;
+    height:72vw;
+    position: relative;
+    top:112vw;
+    right:10vw;
+}
+.img4{
+    position: relative;
+    top:112vw;
+    left:-90vw;
+}
+.img5{
+    width: 21vw;
+    height: 20vw;
+    position: relative;
+    top:157vw;
+    left:-112vw; 
+}
+.img6{
+    position:absolute;
+    top:61vw;
+    right:100vw;
+    width:83vw;
+    height: 50vw;
+    
+}
+.img7{
+    position:absolute;
+    top:-0.1vw;
+    left:62vw;
+    width:20vw;
+    height:20vw;
+}
+.img8{
+    position: absolute;
+    top:20vw;
+    left: 42vw;
+    width: 40vw;
+    height: 40vw;
+}
+.img9{
+    position: absolute;
+    top:157vw;
+    left:27vw;
+    width:20vw;
+    height:20vw;
+}
+.img10{
+    position: absolute;
+    top:112vw;
+    left:27vw;
+    width:20vw;
+    height:44vw;
+}
+.gridd{
+    width:80vw;
+    height:200vw;
+    display: flex;
+    position: relative;
+    top: 605vw;
+}
+.cacho img{
+    position: absolute;
+    top: 602vw;
+    left: 35%;
+}
 }  
 @media (min-width:426px){
     .ref0 div{
