@@ -278,20 +278,7 @@ main{
     right: 11vw;
     top: 214vw;
 }
-.roxo{
-    display: flex;
-}
-.roxo p{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    background-color: seagreen;
-    width: 100vw;
-    height: 100vw;
-    height: auto;
-    font-size: 1vw;
-    color:#ffff;
-}
+
 .grid{
     display: flex;
     height: 100%;
@@ -386,7 +373,6 @@ footer img{
     position: absolute;
     top:15.5vw;
     left:21vw;
-
 }
 .img8{
     width:13vw;
@@ -416,35 +402,33 @@ footer img{
     top:240vw;
     left:8vw;
     display: flex;
-    
 }
 .gridd img{
     margin:0.5vw;
 }
-
-
 @media (max-width:425px){
     header{
         height: 11vw;
     }
-
     .container{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 20vw;
       }
-
       .container ul{
         list-style: none;
         position: absolute;
         width: 100%;
+        top: 5vw;
+        left: 6vw;
+        flex-direction: column;
+        font-size: 2vw;
     }
-    
     .container nav{
         background-color: #9767A9;
         width: 35vw;
-        height: 42vw;
+        height: 32vw;
         z-index: -1;
         top: 8.01vw;
         left: -40vw;
@@ -464,8 +448,6 @@ footer img{
         background-color: #AC95BB;
         font-weight: 900;
     }
-    
-      
       label{
         cursor: pointer;
         position: relative;
@@ -473,55 +455,12 @@ footer img{
         height: 22px;
         width: 30px;
       }
-      
       label img{
         position: absolute;
         top: -3vw;
         left: -5vw;
-       
       }
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    nav ul{
+    .nav-pc{
         display:none;
     }
     input{
@@ -552,14 +491,12 @@ footer img{
     .titulo div{
         top: 34vw;
         left:12vw;
-       
     }
     .intro{
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 30vw;
-      
     }
     .intro-p p{
         position: absolute;
@@ -587,7 +524,6 @@ footer img{
        padding: 0px 27px;
        font-size: 2.3vw;
        font-style: normal;
-       
    }
    .dica1 h3{
        font-size: 4vw;
@@ -608,7 +544,6 @@ footer img{
         padding: 0px 27px;
         font-size: 2.3vw;
         font-style: normal;
-       
     }
     .dica2 h3{
         font-size: 4vw;
@@ -709,7 +644,6 @@ footer img{
         padding: 0px 27px;
         font-size: 2.6vw;
         font-style: normal;
-        
     }
     .dica7 h3{
         font-size: 4vw;
@@ -794,7 +728,6 @@ footer img{
     right:100vw;
     width:83vw;
     height: 50vw;
-    
 }
 .img7{
     position:absolute;
